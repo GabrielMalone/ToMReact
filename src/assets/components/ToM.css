@@ -1,0 +1,93 @@
+.tomRoot {
+
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+
+    background-color: var(--color-chat-bg);
+    
+    width: 320px;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    left: 500px;
+    top: 50px;
+
+    padding: 25px;
+
+    max-height: 750px;
+
+    overflow-y: auto;
+
+    opacity: 0%;
+    transition: opacity 0.3s ease;
+
+}
+
+.tomRoot:hover {
+
+    opacity: 100%;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+.ToMTitle{
+
+    display: flex;
+    margin-top: 10px;
+    font-size: 16px;
+    align-self: center;
+    border-bottom: 1px solid var(--color-border);
+    width: 100%;
+    margin-bottom: 20px;
+    color: var(--color-online);
+
+}
+
+.category {
+
+    font-size: 12px;
+    color: var(--color-debug-category);
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.emotionList {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.beliefsList {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.categoryRow {
+
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--color-bg);
+
+}
+
+.categoryName {
+
+    color: var(--color-human-text);
+    margin-bottom: 5px;
+
+}
+
+.intensity {
+
+    align-content: flex-end;
+    text-align: end;
+
+}
+

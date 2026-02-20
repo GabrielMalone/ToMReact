@@ -1,0 +1,17 @@
+#root {
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+
+.appRoot {
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 20px;
+
+}

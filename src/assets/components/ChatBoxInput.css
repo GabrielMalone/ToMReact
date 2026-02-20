@@ -1,0 +1,58 @@
+.chatBoxInputRoot{
+
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    padding: 24px;
+    width: 100%;
+}
+
+.chatBoxInput {
+
+    all: unset;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    resize: none;
+    overflow-x: auto;
+    border: 1px solid var(--color-border);
+    border-right: none;
+    border-start-start-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 24px;
+    text-align: start;
+    font-size: 12px;
+    background-color: var(--color-chat-main-bg);
+}
+
+
+.sendChatText {
+    
+    all: unset;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid var(--color-border);
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    border-left: none;
+    background-color: var(--color-chat-main-bg);
+
+}
+
+.sendChatText svg {
+
+    display: flex;
+    height: 100%;
+
+
+}
+
+.highlighted svg {
+
+    color: var(--color-online);
+
+}
+
