@@ -36,6 +36,7 @@ export default function ChatBoxInput({setStreamBuffer, setMessages, messages, se
     });
     
     function handleSendMsg(){
+        
         if (!ref.current)return;
         if (ref.current.value === "") return;
         setThinking(true);

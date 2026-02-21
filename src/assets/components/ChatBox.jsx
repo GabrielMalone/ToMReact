@@ -53,16 +53,14 @@ export default function ChatBox(){
             <div className='chatBoxHeader'> 
                 
                 <div className='avatarsInHeader'>
-                    <div className='avatarBox'>
                         <Avatar size={96}/>
                         <Avatar size={96}/>
-                    </div>
                     <div className='namesInHeader'>
-                        <div className='name'>
+                        <div className='name1'>
                             Gabriel
                         </div>
-                        <div className='name'>
-                            Elara
+                        <div className='name2'>
+                            NPC
                         </div>
                     </div>
                 </div>
