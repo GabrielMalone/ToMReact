@@ -447,7 +447,7 @@ export default function ToM() {
 
             <div className='beliefsList'>
 
-                {state.selfBeliefs?.environment_physical?.map(a=>{
+                {state.selfBeliefs?.current_environment?.map(a=>{
                     return(
                     <div 
                         key={a.value}

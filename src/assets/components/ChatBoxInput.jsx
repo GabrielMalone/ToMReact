@@ -67,7 +67,7 @@ export default function ChatBoxInput({setStreamBuffer, setMessages, messages, se
                     setIsTyping(true);
                 }}
                 placeholder='message...'
-                maxLength={1000}
+                maxLength={2000000}
                 spellCheck='false'
                 onKeyUp={() => {
                     setIsTyping(false);
